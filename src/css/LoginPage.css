@@ -1,0 +1,75 @@
+
+.login-page-container {
+    font-family: Arial, sans-serif;
+    padding-top: 20vh;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 60vh;
+    padding: auto;
+    padding-top: 5vh;
+    margin: auto;
+    background-color: #444444;
+    border: 1px solid #a80000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Used for the main titles */
+  h1 {
+    margin-top: 0;
+    font-family: var(--primary-font-family);
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  
+  .login-input {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-submit-button { 
+    width: 7vw;
+    height: 4vh;
+    margin: auto;
+    margin-top: 5vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .loading-message {
+    text-align: center;
+    padding: 1%;
+    margin: 3% auto;
+    background-color: #f0f0f0;
+  }
+  
+  /* Displayed when failed authorization */
+  #authorizationMessage { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b10000;
+    margin-bottom: 1%;
+    font-size: 0.7vw;
+  }
+  
+  
