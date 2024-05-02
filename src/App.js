@@ -1,4 +1,11 @@
-// App.js
+/** src/App.js
+ * @abstract Main App file for React-Auth.
+ * 
+ * @exports 
+ *    @function App 
+ */
+
+// Imports
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 

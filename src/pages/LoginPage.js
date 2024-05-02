@@ -1,4 +1,9 @@
-// src/pages/LoginPage.js
+/** src/pages/LoginPage.js
+ * @abstract Simple login page that sends the inputted credentials to the API endpoints specified in ../AuthProvider.
+ * 
+ * @exports 
+ *    @function LoginPage
+ */
 
 // Imports
 import React, { useState, useEffect, useContext } from 'react';

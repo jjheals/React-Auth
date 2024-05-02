@@ -1,4 +1,17 @@
-
+/** src/AuthProvider.js
+ * @abstract AuthProvider contains the logic for implementing authentication by wrapping the children of AuthProvider with an 
+ * AuthContext.Provider element. 
+ * @exports 
+ *      @const { Context } AuthContext 
+ *      @const { Component } AuthProvider
+ *          @function setToken 
+ *          @function submitToken
+ *          @function checkStoredToken
+ *          @function submitCredentials
+ *          @function login
+ *          @function logout 
+ *          @returns { AuthContext.Provider }
+ */
 
 // Imports
 import { createContext, useState } from "react";
